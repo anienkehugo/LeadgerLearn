@@ -1,6 +1,4 @@
 import { Outlet } from "react-router-dom";
-//import DashFooter from "./dashFooter";
-//import DashHeader from "./DashHeader";
 
 const DashLayout = () => {
   return (
