@@ -25,11 +25,6 @@ import Lesson1 from "./features/auth/Lesson1";
 import Lesson2 from "./features/auth/Lesson2";
 import Lesson3 from "./features/auth/Lesson3";
 import Contact from "./features/auth/contact";
-import { disableReactDevTools } from "@fvilers/disable-react-devtools";
-
-if (import.meta.env.MODE === "production") {
-  disableReactDevTools();
-}
 
 function App() {
   useTitle("LeadgerLearn");
